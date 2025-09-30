@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "arkadia": {
+      "command": "python3",
+      "args": ["-m", "mcp_server_omni"],
+      "cwd": "/Users/diegoavalos/Documents/omni-mcp-arkadia",
+      "env": {
+        "OMNI_URL": "https://elmachetico.omni.net.co",
+        "OMNI_USER": "mcp-admin@omni.net.co",
+        "OMNI_API_KEY": "ab7ad08819e21bc9d05481684c2029f193025bd4",
+        "OMNI_DB": "elmachetico_arkadia",
+        "OMNI_MCP_LOG_LEVEL": "INFO",
+        "OMNI_MCP_DEFAULT_LIMIT": "10",
+        "OMNI_MCP_MAX_LIMIT": "100",
+        "OMNI_MCP_MAX_SMART_FIELDS": "15",
+        "OMNI_MCP_TRANSPORT": "stdio",
+        "OMNI_MCP_HOST": "localhost",
+        "OMNI_MCP_PORT": "8003"
+      }
+    }
+  }
+}
